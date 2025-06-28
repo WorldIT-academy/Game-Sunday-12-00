@@ -30,3 +30,20 @@
     <li><b>hero</b> - Файл в якому прописано клас для створення героя</li>
     <li><b>enemy</b> - Файл в якому прописано клас для створення ворога</li>
 </ul>
+
+<h3>Запуск проєкту:</h3>
+
++ Встановлення ресурсів:
+    - <b>Python</b> - Головна мова програмування, якщо вона не встановлена потрібно встановити <a href = "/https://www.python.org/downloads/">Download</a>
+    - <b>Git</b> - Основний ресурс для контролю версій проєкту, на якому його й збережено <a href="https://git-scm.com/downloads">Download</a>
++ Встановлення та підготовка проєкту:
+    - <b>Встановлення</b> - В будь якому терміналі виконайте команду: `git clone https://github.com/WorldIT-academy/Quizz-bot-Friday-17-30.git`
+    - <b>Віртуальне середовище</b> - Напишіть наступні команди для налаштування проєкту на <b>Windows</b>:
+        * `python -m venv venv `
+        * `venv/scripts/activate`
+        * `pip install -r requirements.txt`
+    - <b>Віртуальне середовище</b> - Напишіть наступні команди для налаштування проєкту на <b>MacOs</b>:
+        * `python3 -m venv venv `
+        * `source venv/bin/activate`
+        * `pip3 install -r requirements.txt`
++ Для запуску проєкту команда: `python main.py`
