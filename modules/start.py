@@ -10,12 +10,10 @@ def start_game():
         FPS.tick(90)
         screen.fill("#024C4A")
         if hero1.COUNT_HEARTS > 0 and hero1.WIN == False:
-            
-            map1.draw(screen)
-
             for object in map1.OBJECTS:
                 name, image, x, y = object
                 screen.blit(image, (x + map1.MAP_X, y))
+            map1.draw(screen)
             for enemy in enemy_list:
                 enemy.show_image(screen)
                 enemy.move()
